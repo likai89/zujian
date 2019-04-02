@@ -48,6 +48,7 @@
 		18CB954F2253318C00695557 /* UIColor+QH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+QH.m"; path = "zujian/Classes/UIColor+QH.m"; sourceTree = "<group>"; };
 		18CB95522253478A00695557 /* XMLYMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLYMacro.m; path = zujian/Classes/XMLYMacro.m; sourceTree = "<group>"; };
 		18CB95532253478A00695557 /* XMLYMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLYMacro.h; path = zujian/Classes/XMLYMacro.h; sourceTree = "<group>"; };
+		18CB95562253484D00695557 /* Zujian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Zujian.h; path = zujian/Classes/Zujian.h; sourceTree = "<group>"; };
 		27B2319803E2AE64C2BA268471CCD459 /* zujian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zujian.modulemap; sourceTree = "<group>"; };
 		3B1930CFED0B1C05BECB4BD4C644A563 /* Pods-zujian_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40E4E286A5BD2E09BBD5B7550B0ACEAA /* Pods-zujian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		1059D2AD56BEE4DBB6DC8C4A58D288A3 /* zujian */ = {
 			isa = PBXGroup;
 			children = (
+				18CB95562253484D00695557 /* Zujian.h */,
 				18CB95532253478A00695557 /* XMLYMacro.h */,
 				18CB95522253478A00695557 /* XMLYMacro.m */,
 				18CB954E2253318C00695557 /* UIColor+QH.h */,

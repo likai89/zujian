@@ -1,7 +1,6 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
-#import "UIColor+QH.h"
-#import "XMLYMacro.h"
+
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)

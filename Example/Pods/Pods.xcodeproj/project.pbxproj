@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		18CB95502253318C00695557 /* UIColor+QH.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CB954E2253318C00695557 /* UIColor+QH.h */; };
 		18CB95512253318C00695557 /* UIColor+QH.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB954F2253318C00695557 /* UIColor+QH.m */; };
+		18CB95542253478A00695557 /* XMLYMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB95522253478A00695557 /* XMLYMacro.m */; };
+		18CB95552253478A00695557 /* XMLYMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CB95532253478A00695557 /* XMLYMacro.h */; };
 		1A705E47976761ECE9A4962DEB0B72A6 /* Pods-zujian_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B98116B4F7FDA6041DDB1F901AFBAB1 /* Pods-zujian_Tests-dummy.m */; };
 		1B666F54AFC446449FF4E8F43AA83F95 /* zujian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9874342BE75F5B69D3CE4826F8CE20FE /* zujian-dummy.m */; };
 		3C01A0B3C1B9EDE7A6E8E2BBF8D058A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		62C811672711CB744869924B4006CD21 /* Pods-zujian_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB39C3BA37B4F6C516954B2AD2B358E /* Pods-zujian_Example-dummy.m */; };
 		64A33CB560C778650C6553B8B872B1F3 /* zujian-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B2D3DB1D9579F4A5BE5702ADAF07AA /* zujian-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89B6505B2AAF701D6673EE8D653B2377 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01369C34FD921B316D09CC9355F2BC5A /* ReplaceMe.m */; };
 		913E52C1DBC8804E6A27B62623ABFC46 /* Pods-zujian_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1930CFED0B1C05BECB4BD4C644A563 /* Pods-zujian_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C89BECFEE6EC214EB9D13932C76B1F28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DE52F2A14B15D6459D7C379007207603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -40,12 +41,13 @@
 
 /* Begin PBXFileReference section */
 		00DBA02FCE5A5D0587AE6A3DD51B9D52 /* Pods_zujian_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zujian_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01369C34FD921B316D09CC9355F2BC5A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = zujian/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0D3952B2742234CA2294F4571096ADA6 /* zujian-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian-prefix.pch"; sourceTree = "<group>"; };
 		12A0644B1AACF6D293E0CAD371B682F7 /* Pods-zujian_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian_Example.release.xcconfig"; sourceTree = "<group>"; };
 		15416A87AC0C0084990D7D335F09A6F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CB954E2253318C00695557 /* UIColor+QH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+QH.h"; path = "zujian/Classes/UIColor+QH.h"; sourceTree = "<group>"; };
 		18CB954F2253318C00695557 /* UIColor+QH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+QH.m"; path = "zujian/Classes/UIColor+QH.m"; sourceTree = "<group>"; };
+		18CB95522253478A00695557 /* XMLYMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLYMacro.m; path = zujian/Classes/XMLYMacro.m; sourceTree = "<group>"; };
+		18CB95532253478A00695557 /* XMLYMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLYMacro.h; path = zujian/Classes/XMLYMacro.h; sourceTree = "<group>"; };
 		27B2319803E2AE64C2BA268471CCD459 /* zujian.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zujian.modulemap; sourceTree = "<group>"; };
 		3B1930CFED0B1C05BECB4BD4C644A563 /* Pods-zujian_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40E4E286A5BD2E09BBD5B7550B0ACEAA /* Pods-zujian_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,9 +111,10 @@
 		1059D2AD56BEE4DBB6DC8C4A58D288A3 /* zujian */ = {
 			isa = PBXGroup;
 			children = (
+				18CB95532253478A00695557 /* XMLYMacro.h */,
+				18CB95522253478A00695557 /* XMLYMacro.m */,
 				18CB954E2253318C00695557 /* UIColor+QH.h */,
 				18CB954F2253318C00695557 /* UIColor+QH.m */,
-				01369C34FD921B316D09CC9355F2BC5A /* ReplaceMe.m */,
 				87B312A4FE4B6030808593578FF0EEC8 /* Pod */,
 				E92D93F78F271BAC303C57157F0606F8 /* Support Files */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF11FE3225A80959004CDB687C523B5E /* Pods-zujian_Example-umbrella.h in Headers */,
+				18CB95552253478A00695557 /* XMLYMacro.h in Headers */,
 				18CB95502253318C00695557 /* UIColor+QH.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CB95512253318C00695557 /* UIColor+QH.m in Sources */,
+				18CB95542253478A00695557 /* XMLYMacro.m in Sources */,
 				62C811672711CB744869924B4006CD21 /* Pods-zujian_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,7 +399,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B6505B2AAF701D6673EE8D653B2377 /* ReplaceMe.m in Sources */,
 				1B666F54AFC446449FF4E8F43AA83F95 /* zujian-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
